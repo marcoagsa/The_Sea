@@ -1,0 +1,133 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".seabegin">
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Linha1"
+        android:background="#00a8a7">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/praia1"
+        android:layout_alignParentLeft="true"
+        android:background="@mipmap/ic_launcher2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Nome praia"
+            android:id="@+id/t1"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="#ffffffff" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Linha2"
+        android:layout_below="@+id/Linha1"
+        android:background="#0fffffff">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/praia2"
+        android:layout_alignParentLeft="true"
+        android:background="@mipmap/ic_launcher" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Nome praia"
+            android:id="@+id/t2"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="#00a8a7" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Linha3"
+        android:layout_below="@+id/Linha2"
+        android:background="#00a8a7" >
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/praia3"
+        android:layout_alignParentLeft="true"
+        android:background="@mipmap/ic_launcher2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Nome praia"
+            android:id="@+id/t3"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="#ffffffff" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Linha4"
+        android:layout_below="@+id/Linha3">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Videoindividual"
+            android:layout_below="@+id/Linha3"
+            android:textStyle="normal"
+            android:textSize="20sp"
+            android:textColor="#a5a6a8"
+            android:inputType="textUri"
+            android:layout_margin="5dp"
+            android:hint="http://.... rtsp://.... rtmpe://.... "
+            android:editable="true" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Linha5"
+        android:layout_below="@+id/Linha4">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/submit"
+            android:text="@string/submit"
+            android:textSize="20sp"
+            android:textColor="#a5a6a8"
+            android:textStyle="bold"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/envia"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/ic_action_submit" />
+
+    </TableRow>
+
+</RelativeLayout>

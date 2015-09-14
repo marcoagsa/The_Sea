@@ -1,0 +1,8 @@
+<resources>
+    <!-- the theme applied to the application or activity -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+
+    </style>
+
+
+</resources>

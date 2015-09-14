@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">The Sea</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_Foto">Fotos</string>
+    <string name="action_Teste">Teste</string>
+    <string name="title_activity_video">Video</string>
+    <string name="Play_Video">Play Video</string>
+    <string name="Loading">Loading....</string>
+    <string name="t1">Praia 1</string>
+    <string name="t2">Praia 2</string>
+    <string name="t3">Praia 3</string>
+    <string name="submit">Enviar Video</string>
+    <string name="NoUrl">Insert Url</string>
+
+
+    <string-array name="Url">
+        <item>http://noscdn1.connectedviews.com:1935/live/rtp1.stream/livestream.m3u8</item>
+        <item>http://noscdn1.connectedviews.com:1935/live/smil:tvi.smil/playlist.m3u8</item>
+        <item>http://88.157.194.246/live/ramdisk/zsic/HLS/zsic.m3u8</item>
+        <item>http://88.157.194.246/live/ramdisk/zsic/HLS/zsic.m3u8xxx</item>
+    </string-array>
+
+</resources>
