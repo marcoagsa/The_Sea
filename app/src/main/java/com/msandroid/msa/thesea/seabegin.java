@@ -66,9 +66,9 @@ public class seabegin extends AppCompatActivity implements View.OnClickListener 
         switch (v.getId()) {
             case R.id.praia1:
 
-                Intent i0 = new Intent(seabegin.this, video.class);
-                i0.putExtra("Data", VideoUrl[0]);
-                startActivity(i0);
+                Intent i = new Intent(seabegin.this, video.class);
+                i.putExtra("Data", VideoUrl[0]);
+                startActivity(i);
                 break;
 
             case R.id.praia2:
@@ -88,8 +88,8 @@ public class seabegin extends AppCompatActivity implements View.OnClickListener 
             case R.id.envia:
 
                 Intent i3 = new Intent(seabegin.this, video.class);
+                setResult(RESULT_OK, i3);
                 i3.putExtra("Data", Video);
-                startActivity(i3);
                 break;
         }
 
