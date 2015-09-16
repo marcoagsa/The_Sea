@@ -22,16 +22,15 @@ public class seabegin extends AppCompatActivity implements View.OnClickListener 
     private TextView t1,t2,t3;
     private EditText ed1;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_seabegin);
 
 
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.setDisplayShowHomeEnabled(true);
-        actionBar.setTitle(R.string.app_name);
-        actionBar.setIcon(R.mipmap.ic_launcher22);
+        ActionBar();
+
 
         t1 = (TextView) findViewById(R.id.t1);
         t1.setText(R.string.t1);
@@ -55,6 +54,13 @@ public class seabegin extends AppCompatActivity implements View.OnClickListener 
 
 
 
+    }
+
+    private void ActionBar() {
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setDisplayShowHomeEnabled(true);
+        actionBar.setTitle(R.string.app_name);
+        actionBar.setIcon(R.mipmap.ic_launcher22);
     }
 
     @Override

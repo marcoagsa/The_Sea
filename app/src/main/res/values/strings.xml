@@ -16,7 +16,7 @@
     <string-array name="Url">
         <item>http://noscdn1.connectedviews.com:1935/live/rtp1.stream/livestream.m3u8</item>
         <item>http://noscdn1.connectedviews.com:1935/live/smil:tvi.smil/playlist.m3u8</item>
-        <item>http://88.157.194.246/live/ramdisk/zsic/HLS/zsic.m3u8</item>
+        <item>http://109.236.88.32:80/hls-live/livepkgr/_definst_/liveevent/portugal1.m3u8</item>
         <item>http://88.157.194.246/live/ramdisk/zsic/HLS/zsic.m3u8xxx</item>
     </string-array>
 
